@@ -6,8 +6,12 @@ import App from "./App.tsx";
 
 import "./index.css";
 
+import { Providers } from "./components/providers.tsx";
+
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
-    <App />
+    <Providers>
+      <App />
+    </Providers>
   </React.StrictMode>,
 );
