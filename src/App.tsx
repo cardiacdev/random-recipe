@@ -1,12 +1,13 @@
-function App() {
+import { ModeToggle } from './components/mode-toggle';
+import { ThemeProvider } from './components/theme-provider';
 
+function App() {
   return (
-    <>
-      <p className="text">
-        hi
-      </p>
-    </>
-  )
+    <ThemeProvider defaultTheme="dark" storageKey="vite-ui-theme">
+      <ModeToggle />
+      <p className="text">hi</p>
+    </ThemeProvider>
+  );
 }
 
-export default App
+export default App;
