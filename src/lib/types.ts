@@ -80,7 +80,7 @@ export const RecipeDetailSchema = z.object({
 
 export type RecipeDetail = z.infer<typeof RecipeDetailSchema>;
 
-export const isMealDetail = (recipeDetail: unknown): recipeDetail is RecipeDetail => {
+export const isRecipeDetail = (recipeDetail: unknown): recipeDetail is RecipeDetail => {
   if (!RecipeDetailSchema.safeParse(recipeDetail).success) return false;
   return true;
 };
