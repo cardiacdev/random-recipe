@@ -22,6 +22,7 @@ See a live demo [here](https://cardiacdev.github.io/random-recipe/).
 - Tanstack React Query
 - shadcn/ui
 - Vite
+- API used: https://www.themealdb.com/api.php 
 
 ## How to run
 
