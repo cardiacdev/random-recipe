@@ -12,7 +12,7 @@ function App() {
         <Header />
         <div className="container flex flex-col items-center">
           <RandomButton />
-          <div className="flex gap-4 pb-4">
+          <div className="flex flex-wrap justify-center gap-4 pb-4">
             <AreaCombobox />
             <CategoryCombobox />
           </div>
