@@ -2,6 +2,8 @@
 
 Quick 2 hour coding challenge for a job interview.
 
+See a live demo [here](https://cardiacdev.github.io/random-recipe/).
+
 **The specs were as follows:**
 
 - The application should have a user interface where users can click on a button to display random recipes.
