@@ -9,7 +9,7 @@ export const RandomButton = () => {
   const { regenerateRandomNumber } = useContext(FilterContext);
   return (
     <Button className="my-8" size={"lg"} onClick={regenerateRandomNumber}>
-      I'm feeling lucky! <Shuffle />
+      I'm feeling lucky! <Shuffle className="ml-2" size={"1.3rem"} />
     </Button>
   );
 };
