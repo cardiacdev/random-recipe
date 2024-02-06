@@ -1,30 +1,32 @@
-# React + TypeScript + Vite
+# RandomRecipe
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Quick 2 hour coding challenge for a job interview.
 
-Currently, two official plugins are available:
+**The specs were as follows:**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- The application should have a user interface where users can click on a button to display random recipes.
+- The recipes should come from a predefined list of dishes or foods. You can use an API to retrieve the recipes or provide a static list of recipes in the application.
+- Each recipe should contain a preview image, the name of the dish, the list of ingredients, and a step-by-step guide to preparation.
+- Implement a filter function that allows users to search for specific criteria, such as cuisine type (e.g. Italian, Chinese, Mexican), difficulty level, or main ingredient.
+- The application should be responsive and work well on different screen sizes.
+- Use HTML, CSS, and TypeScript for the frontend development. You can use a JavaScript library or framework such as React, Vue.js, or Angular.
+- If you use an API to retrieve recipes, you may need to use AJAX or Fetch API requests.
 
-## Expanding the ESLint configuration
+## Technologies Used
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- React
+- TypeScript
+- TailwindCSS
+- Tanstack React Query
+- shadcn/ui
+- Vite
 
-- Configure the top-level `parserOptions` property like this:
+## How to run
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+1. Clone the repository
+2. Run `npm install` to install the dependencies
+3. Run `npm run dev` to start the development server
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Screenshot
+
+![image](public/screenshot.png)
