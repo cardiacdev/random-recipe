@@ -17,7 +17,7 @@ export const RecipeContainer = () => {
           <div className="flex flex-wrap gap-2 py-3">
             <Badge>{recipeDetails.strCategory}</Badge>
             <Badge>{recipeDetails.strArea}</Badge>
-            <Badge>{recipeDetails.strTags}</Badge>
+            {recipeDetails.strTags && <Badge>{recipeDetails.strTags}</Badge>}
           </div>
           <img src={recipeDetails.strMealThumb} className="w-52" alt={recipeDetails.strMeal} />
         </CardDescription>
