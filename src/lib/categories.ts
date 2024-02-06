@@ -13,4 +13,4 @@ export const categories = [
   "Starter",
   "Vegan",
   "Vegetarian",
-] as const;
+];

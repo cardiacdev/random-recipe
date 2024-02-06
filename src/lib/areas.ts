@@ -27,4 +27,4 @@ export const areas = [
   "Turkish",
   "Unknown",
   "Vietnamese",
-] as const;
+];
