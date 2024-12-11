@@ -2,7 +2,7 @@
 
 Quick 2 hour coding challenge for a job interview.
 
-See a live demo [here](https://rare.cardiacdev.tech/).
+See a live demo [here]([https://rare.cardiacdev.tech/](https://cardiacdev.github.io/random-recipe/)).
 
 **The specs were as follows:**
 
